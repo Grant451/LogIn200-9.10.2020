@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace LogIn200
 {
+    //change
     static class Program
     {
         /// <summary>
@@ -16,7 +17,16 @@ namespace LogIn200
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            CredentialsM model = new CredentialsM("Alice", "WonderLand");
+            //CredentialsM model = new CredentialsM("Test", "Friday");
+            LoginForm view = new LoginForm();
+            
+            Controller controller = new Controller(model, view);
+            view.SetController(controller);
+            
+            Application.Run(view);
+            
         }
     }
 }
