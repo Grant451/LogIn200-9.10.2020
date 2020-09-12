@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogIn200
 {
-    public class CredentialsM
+    class Credentialsd
     {
         /// <summary>
         /// The only user name in the Credentials DB
@@ -21,7 +21,7 @@ namespace LogIn200
         /// No parameter constructor that creates a default
         /// user name and a default password.
         /// </summary>
-        public CredentialsM()
+        public Credentialsd()
         {
             this.validUname = "user";
             this.validPassword = "password";
@@ -32,7 +32,7 @@ namespace LogIn200
         /// </summary>
         /// <param name="un">The default user name</param>
         /// <param name="up">The default password</param>
-        public CredentialsM(String un, String up)
+        public Credentialsd(String un, String up)
         {
             Uname = un;
             Password = up;

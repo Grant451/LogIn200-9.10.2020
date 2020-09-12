@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//using LogIn200;
 
 namespace LogIn200
 {
@@ -18,12 +19,12 @@ namespace LogIn200
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            CredentialsM model = new CredentialsM("Alice", "WonderLand");
+            //CredentialsM model = new CredentialsM("Alice", "WonderLand");
             //CredentialsM model = new CredentialsM("Test", "Friday");
             LoginForm view = new LoginForm();
             
-            Controller controller = new Controller(model, view);
-            view.SetController(controller);
+            //LogIn200 controller = new LogIn200(model, view);
+            //view.SetController(controller);
             
             Application.Run(view);
             

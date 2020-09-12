@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Logind;
+using inclasswork_9._10._2020;
 
-namespace inclasswork_9._10._2020
+namespace Login
 {
 
     public delegate void StateObs(State s);
@@ -35,9 +37,10 @@ namespace inclasswork_9._10._2020
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
             Credentialsd model = new Credentialsd("Alice", "Wonderland");
             Controllerd controller = new Controllerd(model);
-            LogInD view = new LogInD(controller.handleEvents);
+            Login view = new Login(controller.handleEvents);
             controller.registeredObs(view.DisplayState);
 
             Application.Run(view);

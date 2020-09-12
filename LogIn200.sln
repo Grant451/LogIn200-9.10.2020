@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogIn200", "LogIn200\LogIn200.csproj", "{44961450-024F-47C2-B663-4DCE760D4998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inclasswork 9.10.2020", "inclasswork 9.10.2020\inclasswork 9.10.2020.csproj", "{416B7FB6-43B7-4FB5-B61B-1DEEA005389B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logind", "inclasswork 9.10.2020\Logind.csproj", "{416B7FB6-43B7-4FB5-B61B-1DEEA005389B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4297179F-7F35-43DB-8E07-BAEBC6E844C3}"
 EndProject

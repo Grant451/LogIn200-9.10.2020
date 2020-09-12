@@ -27,24 +27,27 @@ namespace LogIn200
         /// <summary>
         /// The App's DB
         /// </summary>
-        CredentialsM model;
+        //Credentials model;
 
         /// <summary>
         /// The App's user interaction
         /// </summary>
         LoginForm view;
 
+        /*
         /// <summary>
         /// 
         /// </summary>
         /// <param name="m"></param>
         /// <param name="v"></param>
-        public Controller(CredentialsM m, LoginForm v)
+        Controller(Credentials m, LoginForm v)
         {
             model = m;
             view = v;
         }
+        */
 
+            /*
         /// <summary>
         /// Based on the state the controller will act and apply
         /// the logic needed to process the information. After taking action,
@@ -78,7 +81,9 @@ namespace LogIn200
                     break;
             }
         }
+        */
 
+        /*
         /// <summary>
         /// Process the credential following the preestablished format and
         /// using the information stored in the DB, validates if the user is 
@@ -96,5 +101,6 @@ namespace LogIn200
             result = model.Validate(un, up);
             return result;
         }
+        */
     }
 }

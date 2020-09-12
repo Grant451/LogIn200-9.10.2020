@@ -60,6 +60,7 @@ namespace LogIn200
             }
         }
 
+        /*
         /// <summary>
         /// Listener to the Login button. It takes the user's input
         /// for the username and password and pass the values to the
@@ -75,6 +76,7 @@ namespace LogIn200
             controller.handleEvents(State.GOTPASSWORD, un+":"+up);
 
         }
+        */
 
         /// <summary>
         /// Links the View to the controller.
@@ -86,6 +88,7 @@ namespace LogIn200
             controller = c;
         }
 
+        /*
         /// <summary>
         /// TO synch the View and the Controller objects.
         /// </summary>
@@ -95,7 +98,9 @@ namespace LogIn200
             base.OnShown(e);
             controller.handleEvents(State.START, "");
         }
+        */
 
+            /*
         /// <summary>
         /// This method helps avoid some user input propblems, and helps 
         /// keep the GUI in the right state.
@@ -105,7 +110,7 @@ namespace LogIn200
         private void tbUserName_TextChanged(object sender, EventArgs e)
         {
             controller.handleEvents(State.GOTUSERNAME, "");
-        }
+        }*/
 
 
         /// <summary>

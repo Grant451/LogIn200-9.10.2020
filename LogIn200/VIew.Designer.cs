@@ -72,7 +72,7 @@
             this.tbUserName.Name = "tbUserName";
             this.tbUserName.Size = new System.Drawing.Size(248, 44);
             this.tbUserName.TabIndex = 2;
-            this.tbUserName.TextChanged += new System.EventHandler(this.tbUserName_TextChanged);
+            //this.tbUserName.TextChanged += new System.EventHandler(this.tbUserName_TextChanged);
             // 
             // tbPassword
             // 
@@ -93,7 +93,7 @@
             this.uxLoginBtn.TabIndex = 4;
             this.uxLoginBtn.Text = "Login";
             this.uxLoginBtn.UseVisualStyleBackColor = true;
-            this.uxLoginBtn.Click += new System.EventHandler(this.UxLoginBtn_Click);
+            //this.uxLoginBtn.Click += new System.EventHandler(this.UxLoginBtn_Click);
             // 
             // LoginForm
             // 

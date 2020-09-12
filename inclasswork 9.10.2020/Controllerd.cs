@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using inclasswork_9._10._2020;
+using Login;
+//using Logind;
 
-namespace inclasswork_9._10._2020
+namespace Logind
 {
 
     /// <summary>
@@ -30,9 +33,9 @@ namespace inclasswork_9._10._2020
         /// </summary>
         Credentialsd model;
 
-        public Controllerd(Credentialsd obs)
+        public Controllerd(Credentialsd model)
         {
-            this.model = obs;
+            this.model = model;
         }
 
         public void registeredObs(StateObs obs)
